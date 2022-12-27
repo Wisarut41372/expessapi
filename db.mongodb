@@ -1,0 +1,4 @@
+use("jobmarket");
+
+db.members.dropIndexes();
+db.members.find();
